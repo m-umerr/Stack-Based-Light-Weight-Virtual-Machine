@@ -84,6 +84,65 @@ i32 mapToNumber(string s) {
 		return 0x40000003;
 	} else if (s == "/") {
 		return 0x40000004;
-	}
+	} else if (s == "|") {
+		return 0x40000005;
+	} else if (s == "sqrt") {
+		return 0x40000006;
+	} else if (s == "cbrt") {
+		return 0x40000007;
+	} else if (s == "pow") {
+		return 0x40000008;
+	} else if (s == "min") {
+		return 0x40000009;
+	} else if (s == "max") {
+		return 0x4000000A;
+	} else if (s == "rand") {
+		return 0x4000000B;
+	} else if (s == "and") {
+		return 0x4000000C;
+	} else if (s == "or") {
+		return 0x4000000D;
+	} else if (s == "xor") {
+		return 0x4000000E;
+	} else if (s == "not") {
+		return 0x4000000F;
+	} else if (s == "lshift") {
+		return 0x40000010;
+	} else if (s == "rshift") {
+		return 0x40000011;
+	} else if (s == "neg") {
+		return 0x40000012;
+	} else if (s == "lt") {
+		return 0x40000013;
+	} else if (s == "le") {
+		return 0x40000014;
+	} else if (s == "gt") {
+		return 0x40000015;
+	} else if (s == "ge") {
+		return 0x40000016;
+	} else if (s == "eq") {
+		return 0x40000017;
+	} else if (s == "neq") {
+		return 0x40000018;
+	} else if (s == "swap") {
+		return 0x40000019;
+	} else if (s == "inc") {
+		return 0x4000001A;
+	} else if (s == "dec") {
+		return 0x4000001B;
+	} else if (s == "testbit") {
+		return 0x4000001C;
+	} else if (s == "clrbit") {
+		return 0x4000001D;
+	} else if (s == "sbit") {
+		return 0x4000001E;
+	} else if (s == "pop") {
+		return 0x4000001F;
+	} else if (s == "even") {
+		return 0x40000020;
+	} else if (s == "odd") {
+		return 0x40000021;
+	} 
+	
 	return -1; // invalid instruction
 }
