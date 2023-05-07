@@ -1,1 +1,1 @@
-3 4 + 2 * 2 + 4 /
+3 4 + 2 - 2 * 2 / 5 | 64 sqrt 27 cbrt 3 pow 6 min 43 max rand and 78 or 45 xor 4 not 67 lshift 23 rshift 47 neg 65 lt 71 le 98 gt 34 ge 34 eq 94 neq 5 swap 123 inc dec 3 testbit 123 2 clrbit 9 sbit pop 5 even 8 odd 
